@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mypage/mypage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#56abe4",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index/latest.png",
+        "selectedIconPath": "images/index/latest_on.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/logs/hotest.png",
+        "selectedIconPath": "images/logs/hotest_on.png"
+      },
+      {
+        "pagePath": "pages/mypage/mypage",
+        "text": "我的",
+        "iconPath": "images/mypage/mypage.png",
+        "selectedIconPath": "images/mypage/mypage_on.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "requst": 30000,
+    "connectSocket": 3000,
+    "uploadFile": 3000,
+    "downloadFile": 3000
+  },
+  "debug": true
+}

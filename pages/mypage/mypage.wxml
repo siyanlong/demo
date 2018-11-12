@@ -1,0 +1,7 @@
+<!--pages/mypage/mypage.wxml-->
+<view class='container'>
+<text>Hello Wechat App</text>
+<button type='default' bindtap='testFunction'>测试</button>
+<text>{{myText}}</text>
+</view>
+
